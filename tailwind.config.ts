@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -62,12 +63,14 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-        // Custom colors for Comunica Obra
-        'co-purple-dark': '#1A1F2C', // For text
-        'co-purple-primary': '#8B5CF6', // Vivid Purple for actions/accents
-        'co-purple-secondary': '#7E69AB', // Secondary Purple
-        'co-gray-light': '#F1F0FB', // Soft Gray for background
-        'co-white': '#FFFFFF',
+        // Custom colors for Comunica Obra - Atualizadas conforme solicitado
+        'co-blue-dark': '#201E86', // Nova cor azul escuro
+        'co-yellow': '#E5BE34', // Nova cor amarela
+        'co-purple-dark': '#1A1F2C', // Mantida para compatibilidade
+        'co-purple-primary': '#201E86', // Atualizada para o azul escuro
+        'co-purple-secondary': '#201E86', // Atualizada para o azul escuro
+        'co-gray-light': '#F1F0FB', // Mantida
+        'co-white': '#FFFFFF', // Mantida
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
