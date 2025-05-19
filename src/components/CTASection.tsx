@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { Phone, Mail } from 'lucide-react';
+import { Phone, Mail, MessageSquare } from 'lucide-react'; // Adicionado MessageSquare aqui
 
 const CTASection = () => {
   return (
@@ -37,3 +37,4 @@ const CTASection = () => {
 };
 
 export default CTASection;
+
