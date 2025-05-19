@@ -22,7 +22,7 @@ const CTASection = () => {
           {/* O botão de E-mail foi removido daqui */}
         </div>
         <p className="mt-8 text-co-white/70 text-sm">
-          Ou ligue para (XX) XXXX-XXXX (placeholder)
+          Ou salve o número do WhatsApp (43) 99944-1212
         </p>
       </div>
     </section>
