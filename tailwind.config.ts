@@ -61,7 +61,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+        // Custom colors for Comunica Obra
+        'co-purple-dark': '#1A1F2C', // For text
+        'co-purple-primary': '#8B5CF6', // Vivid Purple for actions/accents
+        'co-purple-secondary': '#7E69AB', // Secondary Purple
+        'co-gray-light': '#F1F0FB', // Soft Gray for background
+        'co-white': '#FFFFFF',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
