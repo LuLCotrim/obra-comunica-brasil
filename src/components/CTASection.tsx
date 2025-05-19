@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { Phone, Mail, MessageSquare } from 'lucide-react'; // Adicionado MessageSquare aqui
+import { MessageSquare } from 'lucide-react'; // Phone e Mail não são mais usados, mas MessageSquare sim.
 
 const CTASection = () => {
   return (
@@ -15,18 +15,11 @@ const CTASection = () => {
           <Button 
             size="lg"
             className="bg-co-yellow text-co-blue-dark hover:bg-co-yellow/90 group w-full sm:w-auto"
-            onClick={() => alert('Abrir chat do WhatsApp (simulação)')} // Placeholder action
+            onClick={() => window.open('https://wa.me/5543999441212?text=Ol%C3%A1!%20Como%20funciona%20para%20fazer%20a%20compra%20de%20materiais%20por%20aqui%3F', '_blank')}
           >
             <MessageSquare className="mr-2 h-5 w-5" /> Iniciar via WhatsApp
           </Button>
-          <Button 
-            size="lg" 
-            variant="outline"
-            className="border-co-white text-co-white hover:bg-co-white/10 group w-full sm:w-auto"
-            onClick={() => window.location.href = 'mailto:contato@comunicaobra.com.br'} // Placeholder email
-          >
-            <Mail className="mr-2 h-5 w-5" /> Enviar um E-mail
-          </Button>
+          {/* O botão de E-mail foi removido daqui */}
         </div>
         <p className="mt-8 text-co-white/70 text-sm">
           Ou ligue para (XX) XXXX-XXXX (placeholder)
