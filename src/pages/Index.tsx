@@ -6,6 +6,7 @@ import BenefitsSection from '@/components/BenefitsSection';
 import TargetAudienceSection from '@/components/TargetAudienceSection';
 import CTASection from '@/components/CTASection';
 import Footer from '@/components/Footer';
+import FloatingWhatsAppButton from '@/components/FloatingWhatsAppButton'; // Novo import
 
 const Index = () => {
   return (
@@ -19,6 +20,7 @@ const Index = () => {
         <CTASection />
       </main>
       <Footer />
+      <FloatingWhatsAppButton /> {/* Adicionado o botão flutuante */}
     </div>
   );
 };
