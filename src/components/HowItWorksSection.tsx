@@ -15,8 +15,8 @@ const steps = [
   },
   {
     icon: <FileText className="h-10 w-10 text-co-purple-primary mb-4" />,
-    title: 'Receba e Compare',
-    description: 'Receba cotações organizadas, compare preços facilmente e tome a melhor decisão para sua obra.',
+    title: 'Receba o melhor preço',
+    description: 'Receba o melhor orçamento do mercado, selecionado entre mais de 200 lojistas parceiros, e economize tempo e dinheiro.',
   },
 ];
 
