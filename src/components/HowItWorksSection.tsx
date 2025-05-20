@@ -39,9 +39,25 @@ const HowItWorksSection = () => {
             </div>
           ))}
         </div>
+
+        <div className="mt-16 md:mt-20 flex flex-col items-center">
+          <h3 className="text-2xl sm:text-3xl font-semibold text-co-purple-dark mb-6 md:mb-8 text-center">Veja um Exemplo na Prática</h3>
+          <div className="w-full max-w-xs sm:max-w-sm md:max-w-md">
+            <img 
+              src="/lovable-uploads/f25d277e-700d-4332-b062-157dca4739bd.png" 
+              alt="Exemplo de conversa no WhatsApp para cotação de materiais com Comunica Obra" 
+              className="rounded-lg shadow-lg w-full h-auto object-contain" 
+            />
+          </div>
+          <p className="text-md text-co-purple-dark/80 mt-6 text-center max-w-lg mx-auto">
+            A imagem acima demonstra como é simples e direto iniciar seu pedido de orçamento diretamente pelo WhatsApp com o Comunica Obra.
+          </p>
+        </div>
+
       </div>
     </section>
   );
 };
 
 export default HowItWorksSection;
+
