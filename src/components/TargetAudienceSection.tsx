@@ -16,7 +16,7 @@ const audiences = [
   {
     icon: <Wrench className="h-10 w-10 text-co-purple-primary mb-3" />, // Representing general public/small projects
     name: 'Síndicos e Público Geral',
-    description: 'Facilite pequenas reformas e manutenções com cotações rápidas e comparáveis.',
+    description: 'Facilite pequenas reformas e manutenções com cotações rápidas.', // Texto atualizado aqui
   },
 ];
 
