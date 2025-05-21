@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
 
 const HeroSection = () => {
-  const backgroundImageUrl = "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1920&fit=max";
+  const backgroundImageUrl = "/lovable-uploads/099176ba-112c-4d60-8179-30b22cde9a23.png"; // Nova imagem de fundo
 
   return (
     <section id="hero" className="relative py-20 md:py-32 text-co-white">
@@ -13,7 +13,7 @@ const HeroSection = () => {
         className="absolute inset-0 z-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${backgroundImageUrl})` }}
       />
-      <div className="absolute inset-0 z-10 bg-co-purple-dark/75" />
+      <div className="absolute inset-0 z-10 bg-co-purple-dark/75" /> {/* Mantém o overlay escuro para contraste */}
 
       {/* Content */}
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-20">
@@ -27,14 +27,14 @@ const HeroSection = () => {
           <Button 
             size="lg" 
             onClick={() => window.location.href = '#how-it-works'}
-            className="bg-co-yellow text-co-blue-dark hover:bg-co-yellow/90 group w-full sm:w-auto"
+            className="bg-co-yellow text-co-blue-dark hover:bg-co-yellow/90 group w-full sm:w-auto" // Botão amarelo mantido
           >
             Descubra Como <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
           </Button>
           <Button 
             size="lg" 
             onClick={() => window.location.href = '#cta'}
-            className="border border-co-white text-co-white hover:bg-co-white/10 w-full sm:w-auto"
+            className="bg-co-blue-dark text-co-white hover:bg-co-blue-dark/90 w-full sm:w-auto" // Botão "Fale Conosco" ajustado
           >
             Fale Conosco
           </Button>
